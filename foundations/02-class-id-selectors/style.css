@@ -1,0 +1,18 @@
+.alert-text{
+    background-color: lightpink;
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+
+#title {
+    color: blue;
+    font-size: 36px;
+}
+
+#second-title {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+.warn-text{
+    font-size: 24px;
+}
