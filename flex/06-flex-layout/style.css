@@ -5,17 +5,64 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
 }
 
 img {
   width: 600px;
 }
 
-button {
+#logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 200px;
+  margin-bottom: 330px;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+.header {
+  display: flex;
+}
+
+.buttons {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  background: #eee;
+  /* background: #eee; */
+  display: flex;
+  justify-content: center;
+  flex-basis: 0;
+}
+.input {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer {
+ display: flex; 
+justify-content: flex-start;
+background: #eee;
+}
+
+.left-links {
+  display: flex;
+  gap: 8px;
+  text-decoration: none;
+  margin-left: -10px;
+}
+
+
+.right-links {
+  display: flex;
+  gap: 8px;
+  margin-left:auto;
+  margin-right : 20px;
 }
 
 input {
